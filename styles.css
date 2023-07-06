@@ -1,0 +1,48 @@
+body {
+    background-color: #28282B;
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
+
+.con {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+
+    line-height: 0px;
+}
+
+.con-2 {
+    justify-content: center;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.con-3 {
+    display: flex;
+    justify-content: center;
+}
+.emoji {
+    width: 500px;
+}
+
+.txt {
+    font-size: 50px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+.contact {
+    color: gray;
+}
+
+.txt-2 {
+    text-align: center;
+}
+.rust-ad {
+    text-align: center;
+    color: gold;
+    font-size: 25px;
+}
