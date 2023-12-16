@@ -1,9 +1,11 @@
 body {
     background-color: #28282B;
-    font-family: 'Anton', sans-serif;
-    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+        color: white;
 }
-
+.spacing {
+    letter-spacing: 5px;
+}
 .con {
     flex-direction: column;
     align-items: center;
@@ -12,6 +14,30 @@ body {
     line-height: normal;
 }
 
+.pg-cover {
+    margin: 30px;
+
+}
+.pg { 
+    width: 800px;
+    font-size: 30px;
+}
+.quote-cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.quote {
+    width: 500px;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+}
+
+.yellow {
+    color: yellow;
+}
 .con-2 {
     justify-content: center;
     
@@ -46,7 +72,76 @@ body {
     font-size: 25px;
 }
 
+.qm {
+    border-radius: 5px;
+    width: 435px;
+    height: 250px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.book {
+    color: lightgreen;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.book:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.acc-lib {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.lib {
+    width: 800px;
+}
+@media only screen and (max-width : 420px) {
+    .qm {
+        width: 330px;
+        height: 190px;
+    }
+
+
+
+    
+}
+
+@media only screen and (max-width : 830px) {
+    .pg {
+        width: 600px;
+    }
+    .lib {
+        width: 600px;
+    }
+
+    
+}
+
+@media only screen and (max-width : 630px) {
+    .pg {
+        width: 500px;
+    }
+
+    .lib {
+        width: 500px;
+    }
+}
 @media only screen and (max-width : 520px) {
+    .lib {
+        width: 350px;
+    }
+    .pg {
+        width: 350px;
+    }
     .txt {
         font-size: 30px;
     }
@@ -58,4 +153,12 @@ body {
     .emoji {
         width: 350px;
     }
+    .quote {
+        width: 250px;
+    }
+}
+
+.caution {
+    color: red;
+    font-size: 30px;
 }
